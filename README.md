@@ -2,7 +2,7 @@
 
 This repository contains corrected Java code organized by question number.
 
-Attempted questions: 4 (Q1, Q3, Q5, Q6).
+Attempted questions: 4 (Q1, Q3, Q4, Q6).
 
 ## 1) Question 1 - VUPay / VUCourses
 - File: `Q1/VUCourses.java`
@@ -16,13 +16,14 @@ Attempted questions: 4 (Q1, Q3, Q5, Q6).
 - File: `Q6/leapmonth.java`
 - Purpose: Check leap-year condition and print result.
 
-## 4) Question 5 - Perfect Number Checker
-- File: `Q5/PerfectNumberChecker.java`
-- Purpose: Validate positive integer input and determine whether it is a perfect number.
+## 4) Question 4 - Immutable Element and FuncList
+- File: `Q4/Element.java`
+- File: `Q4/FuncList.java`
+- Purpose: Implement immutable `Element` and immutable `FuncList` with `head`, `tail`, and `cons`.
 
 ## Compile
 ```bash
-javac Q1/VUCourses.java Q3/MedicalLogReader.java Q6/leapmonth.java Q5/PerfectNumberChecker.java
+javac Q1/VUCourses.java Q3/MedicalLogReader.java Q4/Element.java Q4/FuncList.java Q6/leapmonth.java
 ```
 
 ## Run
@@ -30,7 +31,7 @@ javac Q1/VUCourses.java Q3/MedicalLogReader.java Q6/leapmonth.java Q5/PerfectNum
 java -cp Q1 VUCourses
 java -cp Q3 MedicalLogReader
 java -cp Q6 leapmonth
-java -cp Q5 PerfectNumberChecker
+java -cp Q4 FuncList
 ```
 
 ## Repository
