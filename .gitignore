@@ -1,0 +1,5 @@
+# Java compiled output
+*.class
+
+# Temporary extraction/output files
+*_extracted.txt
